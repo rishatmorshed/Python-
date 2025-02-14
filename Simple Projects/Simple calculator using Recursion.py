@@ -31,8 +31,8 @@ def M_calculator():
             number1 = output
         elif should_continue == 'n':
             continue_flag = False
-            os.system('cls') #This will clear previous output in cosole screen 
-            M_calculator()
+            os.system('cls')             #This will clear previous output in cosole screen 
+            M_calculator()               # Recursion call 
         elif should_continue == 'x':
             continue_flag = False
             print("Bye")
