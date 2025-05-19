@@ -7,7 +7,7 @@ for i in range(col):
         val = int(input(f"Enter value for position[{i}][{j}]: "))
         row.append(val)
     matrix.append(row)
-for row in matrix:
-    for val in row:
-        print(val, end=' ')
+for row in range(len(matrix)):
+    for col in range(len(matrix[row])):
+        print(matrix[row][col], end=' ')
     print()
